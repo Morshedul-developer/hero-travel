@@ -1,31 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 /* shared styles */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
 
-:root{
-    
+html{
+    font-size: 16px;
 }
 
-.flex{
-    display: flex;
+:root {
+    --heading-color: #131318;
+    --orange-color: #FF5400;
+    --nav-link-color: #424247;
 }
 
-.grid{
-    display: grid;
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.section-title{
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+.flex {
+  display: flex;
 }
 
-.section-para{
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
+.grid {
+  display: grid;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section-para {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* main styles */
+
+/* header styles */
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+nav > div{
+    gap: 16px;
+    align-items: center;
+}
+nav > div > img {
+  width: 48px;
+  height: 48px;
+}
+nav > div > h4{
+    color: var(--heading-color);
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+nav > div > h4 span{
+    color: var(--orange-color);
+}
+
+nav > ul {
+  gap: 44px;
+  align-items: center;
+}
+nav > ul > li {
+  list-style: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+  font-size: 1rem;
+  font-weight: 600;
+}
+nav > ul li:first-child a{
+    color: var(--orange-color);
+}
+.menu-icon{
+    display: none;
+    font-size: 1.4rem;
+    color: var(--heading-color);
+    cursor: pointer;
 }

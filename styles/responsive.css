@@ -1,0 +1,35 @@
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 0 16px;
+  }
+  nav > ul > li {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  nav > div{
+    gap: 5px;
+}
+  nav > div > img {
+    width: 30px;
+    height: 30px;
+  }
+  nav > div > h4 {
+    color: var(--heading-color);
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+  nav > ul > li {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
