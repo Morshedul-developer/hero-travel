@@ -2,15 +2,18 @@
   .container {
     padding: 0 16px;
   }
+  .banner > div > div {
+    flex-direction: column;
+  }
   nav > ul > li {
     display: none;
   }
   .menu-icon {
     display: block;
   }
-  nav > div{
+  nav > div {
     gap: 5px;
-}
+  }
   nav > div > img {
     width: 30px;
     height: 30px;
@@ -20,16 +23,60 @@
     font-size: 1.4rem;
     font-weight: 800;
   }
+
+  .banner {
+    padding: 32px 24px;
+    margin-top: 20px;
+  }
+  .banner > div > div {
+    gap: 12px;
+  }
+  .banner > div > div input,
+  .banner > div > div select,
+  .banner > div > div button {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 1.9rem;
+    margin-bottom: 12px;
+  }
+  .banner-des {
+    font-size: 0.8rem;
+    margin-bottom: 24px;
+  }
 }
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
   .container {
     padding: 0 24px;
+  }
+  .banner > div > div {
+    flex-direction: column;
   }
   nav > ul > li {
     display: none;
   }
   .menu-icon {
     display: block;
+  }
+
+  .banner {
+    padding: 32px 24px;
+  }
+  .banner > div > div {
+    gap: 12px;
+  }
+  .banner > div > div input,
+  .banner > div > div select,
+  .banner > div > div button {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+  }
+  .banner-des {
+    font-size: 0.9rem;
+    margin-bottom: 24px;
   }
 }

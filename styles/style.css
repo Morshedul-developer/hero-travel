@@ -15,7 +15,9 @@ html{
 
 :root {
     --heading-color: #131318;
-    --orange-color: #FF5400;
+    --text-white: #FFFFFF;
+    --text-orange: #FF5400;
+    --text-placeholder: rgba(19, 19, 24, 0.5);
     --nav-link-color: #424247;
 }
 
@@ -45,6 +47,17 @@ html{
   line-height: 1.5;
 }
 
+.primary-btn{
+  background-color: var(--text-orange);
+  color: var(--text-white);
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 /* main styles */
 
 /* header styles */
@@ -67,7 +80,7 @@ nav > div > h4{
     font-weight: 800;
 }
 nav > div > h4 span{
-    color: var(--orange-color);
+    color: var(--text-orange);
 }
 
 nav > ul {
@@ -84,11 +97,77 @@ nav > ul > li > a {
   font-weight: 600;
 }
 nav > ul li:first-child a{
-    color: var(--orange-color);
+    color: var(--text-orange);
 }
 .menu-icon{
     display: none;
     font-size: 1.4rem;
     color: var(--heading-color);
     cursor: pointer;
+}
+
+/* banner section styles */
+.banner {
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.625) 0%, rgba(19, 19, 24, 0) 100%), url(../assets/banner.png);
+  width: 100%;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  margin-top: 48px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-title{
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--text-white);
+  margin-bottom: 24px;
+}
+.banner-des{
+  max-width: 676px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--text-white);
+  margin-bottom: 48px;
+}
+.banner > div > div{
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  gap: 24px;
+}
+.banner > div > div input, .banner > div > div select{
+  width: 174px;
+  padding: 16px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.banner > div > div input::placeholder, .banner > div > div select{
+  color: var(--text-placeholder);
+}
+.banner > div > div select option{
+  color: var(--heading-color);
+}
+.banner > div > div select{
+  cursor: pointer;
+}
+.banner > div > div button{
+  width: 174px;
 }
