@@ -227,6 +227,11 @@ nav > ul li:first-child a{
 .destination-card > img{
   width: 100%;
   height: 300px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 .destination-card:nth-child(1),
 .destination-card:nth-child(2){
