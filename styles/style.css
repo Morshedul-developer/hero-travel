@@ -19,6 +19,8 @@ html{
     --text-orange: #FF5400;
     --text-placeholder: rgba(19, 19, 24, 0.5);
     --nav-link-color: #424247;
+    --section-para-color: rgba(19, 19, 24, 0.7);
+    --tour-des-color: #5A5A5D;
 }
 
 .container {
@@ -35,16 +37,22 @@ html{
   display: grid;
 }
 
+main > section {
+  margin-top: 100px;
+}
+
 .section-title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--heading-color);
+  margin-bottom: 24px;
 }
 
 .section-para {
   font-size: 1rem;
-  color: #555;
-  line-height: 1.5;
+  color: var(--section-para-color);
+  line-height: 26px;
+  margin-bottom: 24px;
 }
 
 .primary-btn{
@@ -170,4 +178,32 @@ nav > ul li:first-child a{
 }
 .banner > div > div button{
   width: 174px;
+}
+
+/* tour section */
+.tour-container{
+  align-items: center;
+  gap: 53px;
+}
+.tour-info > ul {
+  max-width: 500px;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-left: 16px;
+}
+.tour-info > ul li{
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--section-para-color);
+}
+.tour-des{
+  max-width: 560px;
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--tour-des-color);
+  margin-bottom: 32px;
+}
+.tour-info button{
+  padding: 14px 35px;
 }

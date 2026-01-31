@@ -1,58 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hero Travel</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+  </head>
+  <body>
     <!-- header section -->
     <header class="container">
-        <nav class="flex">
-            <div class="flex">
-                <img src="./assets/logo.png" alt="">
-                <h4>Hero <span>Travel</span></h4>
-            </div>
-            <ul class="flex">
-                <li><a href="">Home</a></li>
-                <li><a href="">Packages</a></li>
-                <li><a href="">Testimonial</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-            <div class="menu-icon">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </nav>
+      <nav class="flex">
+        <div class="flex">
+          <img src="./assets/logo.png" alt="" />
+          <h4>Hero <span>Travel</span></h4>
+        </div>
+        <ul class="flex">
+          <li><a href="">Home</a></li>
+          <li><a href="">Packages</a></li>
+          <li><a href="">Testimonial</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
     </header>
 
     <!-- main section -->
-     <main class="container">
-        <section class="banner flex">
-            <div>
-                <h1 class="banner-title">Explore Your Travel</h1>
-                <p class="banner-des">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
-                <div class="flex">
-                    <input type="text" name="name" placeholder="Where go">
-                    <select name="" id="">
-                        <option value="when" selected disabled>When</option>
-                        <option value="test 1">Test 1</option>
-                        <option value="test 2">Test 2</option>
-                        <option value="test 3">Test 3</option>
-                    </select>
-                    <select name="" id="">
-                        <option value="when" selected disabled>Select Type</option>
-                        <option value="type 1">Type 1</option>
-                        <option value="type 2">Type 2</option>
-                        <option value="type 3">Type 3</option>
-                    </select>
-                    <button class="primary-btn"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
-                </div>
-            </div>
-        </section>
-     </main>
-</body>
+    <main class="container">
+      <!-- banner section -->
+      <section class="banner flex">
+        <div>
+          <h1 class="banner-title">Explore Your Travel</h1>
+          <p class="banner-des">
+            Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
+            adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+          </p>
+          <div class="flex">
+            <input type="text" name="name" placeholder="Where go" />
+            <select name="" id="">
+              <option value="when" selected disabled>When</option>
+              <option value="test 1">Test 1</option>
+              <option value="test 2">Test 2</option>
+              <option value="test 3">Test 3</option>
+            </select>
+            <select name="" id="">
+              <option value="when" selected disabled>Select Type</option>
+              <option value="type 1">Type 1</option>
+              <option value="type 2">Type 2</option>
+              <option value="type 3">Type 3</option>
+            </select>
+            <button class="primary-btn">
+              <i class="fa-solid fa-magnifying-glass"></i> Find Now
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- tour section -->
+      <section class="tour">
+        <div class="tour-container container flex">
+          <div class="tour-info">
+            <h2 class="section-title">Our Popular Tours</h2>
+            <p class="section-para">
+              Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+              odio sit massa. Sodales dictumst nec nibh pellentesque.
+            </p>
+            <ul class="flex">
+              <li>
+                Tempus euismod lacus mauris dignissim quis in ultrices. Magna
+                nullam odio neque diam. Sociis erat at .
+              </li>
+              <li>
+                Adipiscing ornare pellentesque mauris volutpat tortor vitae
+                platea porta lacus. Lectus suspendisse nullam.
+              </li>
+              <li>
+                Accumsan eget et turpis praesent lorem egestas enim elit
+                bibendum. Risus at in.
+              </li>
+            </ul>
+            <p class="tour-des">
+              Amet consectetur. Vulputate commodo felis molestie risus ornare
+              nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+              Habitant adipiscing risus natoque aliquet. Id bibendum nunc
+              senectus semper tincidunt.
+            </p>
+            <button class="primary-btn">Read More</button>
+          </div>
+          <div class="tour-image">
+            <img src="./assets/tour.png" alt="">
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
