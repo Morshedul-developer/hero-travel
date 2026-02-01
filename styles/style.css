@@ -323,3 +323,83 @@ nav > ul li:first-child a {
   line-height: 26px;
   color: var(--tour-des-color);
 }
+
+/* discount section */
+.discount{
+  text-align: center;
+}
+.discount .section-para{
+  margin: auto;
+  margin-bottom: 48px;
+}
+.discount-container{
+  max-width: 1170px;
+  margin: auto;
+  background-image: url('../assets/deal-1.png');
+  width: 100%;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  padding-right: 56px;
+}
+.discount-container {
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.discount-container > div{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid var(--text-white);
+  max-width: 580px;
+  padding: 50px;
+  text-align: left;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.discount-container > div > div > ul{
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.discount-container > div > div > ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.discount-container > div > div > h3{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--heading-color);
+  margin-bottom: 16px;
+}
+.discount-container > div > div > p{
+  max-width: 452px;
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--tour-des-color);
+  margin-bottom: 16px;
+}
+.discount-container > div > div > strong{
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-orange);
+  margin-bottom: 24px;
+  display: block;
+}
+#dis-2{
+  justify-content: start;
+  padding-left: 56px;
+  background-image: url('../assets/deal-2.png');
+}
+#dis-3{
+  margin-bottom: 48px;
+}
