@@ -375,6 +375,9 @@ nav > ul li:first-child a {
   align-items: center;
   gap: 8px;
 }
+.discount-container > div > div > ul li > p{
+  color: var(--tour-des-color);
+}
 .discount-container > div > div > h3{
   font-size: 1.5rem;
   font-weight: 800;
