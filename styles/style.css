@@ -9,18 +9,18 @@
   font-family: "Mulish", sans-serif;
 }
 
-html{
-    font-size: 16px;
+html {
+  font-size: 16px;
 }
 
 :root {
-    --heading-color: #131318;
-    --text-white: #FFFFFF;
-    --text-orange: #FF5400;
-    --text-placeholder: rgba(19, 19, 24, 0.5);
-    --nav-link-color: #424247;
-    --section-para-color: rgba(19, 19, 24, 0.7);
-    --tour-des-color: #5A5A5D;
+  --heading-color: #131318;
+  --text-white: #ffffff;
+  --text-orange: #ff5400;
+  --text-placeholder: rgba(19, 19, 24, 0.5);
+  --nav-link-color: #424247;
+  --section-para-color: rgba(19, 19, 24, 0.7);
+  --tour-des-color: #5a5a5d;
 }
 
 .container {
@@ -56,7 +56,7 @@ main > section {
   margin-bottom: 24px;
 }
 
-.primary-btn{
+.primary-btn {
   background-color: var(--text-orange);
   color: var(--text-white);
   padding: 14px 24px;
@@ -75,21 +75,21 @@ nav {
   align-items: center;
   padding-top: 20px;
 }
-nav > div{
-    gap: 16px;
-    align-items: center;
+nav > div {
+  gap: 16px;
+  align-items: center;
 }
 nav > div > img {
   width: 48px;
   height: 48px;
 }
-nav > div > h4{
-    color: var(--heading-color);
-    font-size: 2.25rem;
-    font-weight: 800;
+nav > div > h4 {
+  color: var(--heading-color);
+  font-size: 2.25rem;
+  font-weight: 800;
 }
-nav > div > h4 span{
-    color: var(--text-orange);
+nav > div > h4 span {
+  color: var(--text-orange);
 }
 
 nav > ul {
@@ -105,19 +105,25 @@ nav > ul > li > a {
   font-size: 1rem;
   font-weight: 600;
 }
-nav > ul li:first-child a{
-    color: var(--text-orange);
+nav > ul li:first-child a {
+  color: var(--text-orange);
 }
-.menu-icon{
-    display: none;
-    font-size: 1.4rem;
-    color: var(--heading-color);
-    cursor: pointer;
+.menu-icon {
+  display: none;
+  font-size: 1.4rem;
+  color: var(--heading-color);
+  cursor: pointer;
 }
 
 /* banner section styles */
 .banner {
-  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.625) 0%, rgba(19, 19, 24, 0) 100%), url(../assets/banner.png);
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.625) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../assets/banner.png);
   width: 100%;
   min-height: 500px;
   background-repeat: no-repeat;
@@ -133,13 +139,13 @@ nav > ul li:first-child a{
   align-items: center;
   text-align: center;
 }
-.banner-title{
+.banner-title {
   font-size: 4rem;
   font-weight: 800;
   color: var(--text-white);
   margin-bottom: 24px;
 }
-.banner-des{
+.banner-des {
   max-width: 676px;
   margin: 0 auto;
   font-size: 1rem;
@@ -147,7 +153,7 @@ nav > ul li:first-child a{
   color: var(--text-white);
   margin-bottom: 48px;
 }
-.banner > div > div{
+.banner > div > div {
   background-color: rgba(255, 255, 255, 0.3);
   padding: 16px;
   border-radius: 8px;
@@ -157,7 +163,8 @@ nav > ul li:first-child a{
   -o-border-radius: 8px;
   gap: 24px;
 }
-.banner > div > div input, .banner > div > div select{
+.banner > div > div input,
+.banner > div > div select {
   width: 174px;
   padding: 16px;
   border: none;
@@ -168,21 +175,22 @@ nav > ul li:first-child a{
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
-.banner > div > div input::placeholder, .banner > div > div select{
+.banner > div > div input::placeholder,
+.banner > div > div select {
   color: var(--text-placeholder);
 }
-.banner > div > div select option{
+.banner > div > div select option {
   color: var(--heading-color);
 }
-.banner > div > div select{
+.banner > div > div select {
   cursor: pointer;
 }
-.banner > div > div button{
+.banner > div > div button {
   width: 174px;
 }
 
 /* tour section */
-.tour-container{
+.tour-container {
   align-items: center;
   gap: 53px;
 }
@@ -193,38 +201,38 @@ nav > ul li:first-child a{
   margin-bottom: 24px;
   padding-left: 16px;
 }
-.tour-info > ul li{
+.tour-info > ul li {
   font-size: 1rem;
   line-height: 26px;
   color: var(--section-para-color);
 }
-.tour-des{
+.tour-des {
   max-width: 560px;
   font-size: 1rem;
   line-height: 26px;
   color: var(--tour-des-color);
   margin-bottom: 32px;
 }
-.tour-info button{
+.tour-info button {
   padding: 14px 35px;
 }
 
 /* destination section */
-.destination{
+.destination {
   text-align: center;
 }
-.destination .section-para{
+.destination .section-para {
   margin: auto;
   margin-bottom: 48px;
 }
-.destination-cards{
+.destination-cards {
   grid-template-columns: repeat(12, 1fr);
   gap: 24px;
 }
-.destination-card{
+.destination-card {
   position: relative;
 }
-.destination-card > img{
+.destination-card > img {
   width: 100%;
   height: 300px;
   border-radius: 16px;
@@ -234,25 +242,25 @@ nav > ul li:first-child a{
   -o-border-radius: 16px;
 }
 .destination-card:nth-child(1),
-.destination-card:nth-child(2){
+.destination-card:nth-child(2) {
   grid-column: span 6;
 }
-.destination-card:nth-child(3){
+.destination-card:nth-child(3) {
   grid-column: span 4;
 }
-.destination-card:nth-child(4){
+.destination-card:nth-child(4) {
   grid-column: span 5;
 }
-.destination-card:nth-child(5){
+.destination-card:nth-child(5) {
   grid-column: span 3;
 }
-.destination-card:nth-child(6){
+.destination-card:nth-child(6) {
   grid-column: span 5;
 }
-.destination-card:nth-child(7){
+.destination-card:nth-child(7) {
   grid-column: span 7;
 }
-.destination-card > strong{
+.destination-card > strong {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -262,8 +270,56 @@ nav > ul li:first-child a{
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
 }
-.destination-card > strong{
+.destination-card > strong {
   font-size: 1.75rem;
   font-weight: 800;
   color: var(--text-white);
+}
+
+/* why-choose section */
+.why-choose {
+  text-align: center;
+}
+.why-choose .section-para {
+  margin: auto;
+  margin-bottom: 48px;
+}
+.choose-cards{
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.choose-card{
+  width: calc(50% - 24px);
+  background-color: rgba(251, 181, 99, 0.05);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  padding: 32px;
+  text-align: left;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+}
+.choose-card:nth-child(2){
+  background-color: rgba(41, 206, 246, 0.05);
+  border: 1px solid rgba(41, 206, 246, 0.2);
+}
+.choose-card:nth-child(3){
+  background-color: rgba(233, 68, 68, 0.05);
+  border: 1px solid rgba(233, 68, 68, 0.2);
+}
+.choose-card > img{
+  margin-bottom: 32px;
+}
+.choose-card > h4{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--heading-color);
+  margin-bottom: 16px;
+}
+.choose-card > p{
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--tour-des-color);
 }

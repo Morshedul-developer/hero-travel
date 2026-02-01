@@ -2,22 +2,22 @@
   .container {
     padding: 0 16px;
   }
-  main > section{
+  main > section {
     margin-top: 30px;
   }
   .banner > div > div,
   .tour-container {
     flex-direction: column;
   }
-  .destination-cards{
+  .destination-cards {
     grid-template-columns: 1fr;
   }
-  .section-title{
+  .section-title {
     font-size: 1.25rem;
     margin-bottom: 16px;
   }
-  .section-para
-  ,.banner-des,
+  .section-para,
+  .banner-des,
   .tour-info > ul li,
   .tour-des {
     font-size: 0.8rem;
@@ -25,7 +25,7 @@
   }
   .section-para,
   .tour-info > ul,
-  .tour-des{
+  .tour-des {
     margin-bottom: 16px;
   }
   nav > ul > li {
@@ -69,18 +69,18 @@
     margin-bottom: 24px;
   }
 
-  .tour-container{
+  .tour-container {
     padding: 0 0;
     gap: 24px;
   }
-  .tour-image img{
+  .tour-image img {
     width: 100%;
   }
-  .tour-info > ul{
+  .tour-info > ul {
     gap: 16px;
   }
 
-  .destination-cards{
+  .destination-cards {
     gap: 16px;
   }
   .destination-card:nth-child(1),
@@ -89,19 +89,28 @@
   .destination-card:nth-child(4),
   .destination-card:nth-child(5),
   .destination-card:nth-child(6),
-  .destination-card:nth-child(7){
+  .destination-card:nth-child(7) {
     grid-column: auto;
   }
-  .destination-card > img{
+  .destination-card > img {
     height: 220px;
   }
-  .destination .section-para{
-  margin-bottom: 24px;
-}
-.destination-card > strong{
-  font-size: 1.25rem;
-  font-weight: 700;
-}
+  .destination .section-para,
+  .why-choose .section-para {
+    margin-bottom: 24px;
+  }
+  .destination-card > strong {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  .choose-card{
+    width: 100%;
+  }
+  .choose-card > img{
+    width: 48px;
+    margin-bottom: 16px;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -112,7 +121,7 @@
   .tour-container {
     flex-direction: column;
   }
-  .destination-cards{
+  .destination-cards {
     grid-template-columns: repeat(2, 1fr);
   }
   nav > ul > li {
@@ -141,7 +150,7 @@
     font-size: 0.9rem;
     margin-bottom: 24px;
   }
-  .tour-image img{
+  .tour-image img {
     width: 100%;
   }
 
@@ -151,13 +160,14 @@
   .destination-card:nth-child(4),
   .destination-card:nth-child(5),
   .destination-card:nth-child(6),
-  .destination-card:nth-child(7){
+  .destination-card:nth-child(7) {
     grid-column: auto;
   }
-  .destination-card > img{
+  .destination-card > img {
     height: 220px;
   }
-  .destination-card > strong{
-  font-size: 1.5rem;
-}
+  .destination-card > strong {
+    font-size: 1.5rem;
+  }
+
 }
