@@ -105,52 +105,59 @@
     font-weight: 700;
   }
 
-  .choose-card{
+  .choose-card {
     width: 100%;
   }
-  .choose-card > img{
+  .choose-card > img {
     width: 48px;
     margin-bottom: 16px;
+  }
+  .choose-card > h4 {
+    font-size: 1.25rem;
+  }
+  .choose-card > p {
+    font-size: .875rem;
+    line-height: 24px;
   }
 
   #dis-1,
   #dis-2,
-  #dis-3{
+  #dis-3 {
     justify-content: center;
     align-items: end;
     padding: 16px;
   }
   #dis-1 > div > div > ul,
   #dis-2 > div > div > ul,
-  #dis-3 > div > div > ul{
+  #dis-3 > div > div > ul {
     flex-wrap: wrap;
     gap: 15px;
   }
-  .discount-container > div{
+  .discount-container > div {
     padding: 24px;
   }
-  .discount-container > div > div > ul{
-  margin-bottom: 16px;
-}
-  .discount-container > div > div > h3{
-  font-size: 1.25rem;
-  margin-bottom: 8px;
-}
-.discount-container > div > div > p{
-  font-size: .875rem;
-  line-height: 24px;
-  margin-bottom: 12px;
-}
-.discount-container > div > div > strong{
-  font-size: 1rem;
-  font-weight: 800;
-  color: var(--text-orange);
-  margin-bottom: 16px;
-  display: block;
-}
-#dis-3{
-  margin-bottom: 24px;
-}
+  .discount-container > div > div > ul {
+    margin-bottom: 16px;
+  }
+  .discount-container > div > div > h3 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+  }
+  .discount-container > div > div > p {
+    font-size: 0.875rem;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .discount-container > div > div > strong {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--text-orange);
+    margin-bottom: 16px;
+    display: block;
+  }
+  #dis-3 {
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -212,18 +219,18 @@
 
   #dis-1,
   #dis-2,
-  #dis-3{
+  #dis-3 {
     justify-content: center;
     align-items: end;
     padding: 16px;
   }
   #dis-1 > div > div > ul,
   #dis-2 > div > div > ul,
-  #dis-3 > div > div > ul{
+  #dis-3 > div > div > ul {
     flex-wrap: wrap;
     gap: 15px;
   }
-  .discount-container > div{
+  .discount-container > div {
     padding: 24px;
   }
 }
