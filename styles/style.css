@@ -437,7 +437,6 @@ nav > ul li:first-child a {
 /* newsletter section */
 .newsletter{
   justify-content: space-between;
-  gap: 24px;
 }
 .newsletter-form{
   border: 1px solid var(--text-orange);
@@ -488,4 +487,43 @@ nav > ul li:first-child a {
 }
 .newsletter-image >img{
   vertical-align: middle;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.newsletter-image{
+  position: relative;
+}
+.newsletter-image > div{
+  background-color: var(--text-orange);
+  max-width: max-content;
+  max-height: max-content;
+  padding: 22px 40px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  color: var(--text-white);
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  right: 1%;
+  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+}
+.newsletter-image > div > span{
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.newsletter-image > div > strong{
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
 }
