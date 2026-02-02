@@ -37,7 +37,8 @@ html {
   display: grid;
 }
 
-main > section {
+main > section,
+footer {
   margin-top: 100px;
 }
 
@@ -409,6 +410,7 @@ nav > ul li:first-child a {
 
 /* mountain section */
 .mountain{
+  justify-content: space-between;
   align-items: center;
   gap: 28px;
 }
@@ -430,4 +432,60 @@ nav > ul li:first-child a {
 .mountain-info > ul > li{
   font-weight: 700;
   line-height: 26px;
+}
+
+/* newsletter section */
+.newsletter{
+  justify-content: space-between;
+  gap: 24px;
+}
+.newsletter-form{
+  border: 1px solid var(--text-orange);
+  padding: 40px 60px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.newsletter-form > div > h4{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--heading-color);
+  margin-bottom: 16px;
+}
+.newsletter-form > div > p{
+  max-width: 350px;
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--tour-des-color);
+  padding-bottom: 23.5px;
+}
+.newsletter-form > div{
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+  margin-bottom: 24.5px;
+}
+.newsletter-form > form{
+  flex-direction: column;
+}
+.newsletter-form > form > input{
+  padding: 16px 20px;
+  background-color: rgba(19, 19, 24, 0.05);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-bottom: 16px;
+}
+.newsletter-form > form > input:nth-child(2){
+  margin-bottom: 24px;
+}
+.newsletter-form > button{
+  /* max-width: max-content; */
+}
+.newsletter-image >img{
+  vertical-align: middle;
 }
