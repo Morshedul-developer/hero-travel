@@ -2,7 +2,8 @@
   .container {
     padding: 0 16px;
   }
-  main > section {
+  main > section,
+  footer {
     margin-top: 30px;
   }
   .banner > div > div,
@@ -117,7 +118,7 @@
     font-size: 1.25rem;
   }
   .choose-card > p {
-    font-size: .875rem;
+    font-size: 0.875rem;
     line-height: 24px;
   }
 
@@ -160,55 +161,89 @@
     margin-bottom: 24px;
   }
 
-  .mountain{
+  .mountain {
     flex-direction: column;
   }
-  .mountain-image > img{
+  .mountain-image > img {
     width: 100%;
   }
-  .mountain-info .section-title{
+  .mountain-info .section-title {
     max-width: 248px;
     line-height: 30px;
   }
   .mountain-info .section-para,
-  .mountain-info > ul > li{
+  .mountain-info > ul > li {
     max-width: 335px;
     line-height: 24px;
   }
-  .mountain-info > ul > li{
-    font-size: .875rem;
+  .mountain-info > ul > li {
+    font-size: 0.875rem;
   }
 
-  .newsletter{
+  .newsletter {
     gap: 16px;
   }
-  .newsletter-form{
+  .newsletter-form {
     padding: 24px;
   }
-  .newsletter-image > div{
-  padding: 15px 25px;
-  transform: rotate(-8deg);
-  -webkit-transform: rotate(-8deg);
-  -moz-transform: rotate(-8deg);
-  -ms-transform: rotate(-8deg);
-  -o-transform: rotate(-8deg);
-  bottom: 0;
-  right: 2%;
-}
-  .newsletter-image > div > span{
-  font-size: .99rem;
-}
-.newsletter-image > div > strong{
-  font-size: 1.2rem;
-}
-  .newsletter-image > img{
+  .newsletter-image > div {
+    padding: 15px 25px;
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    bottom: 0;
+    right: 2%;
+  }
+  .newsletter-image > div > span {
+    font-size: 0.99rem;
+  }
+  .newsletter-image > div > strong {
+    font-size: 1.2rem;
+  }
+  .newsletter-image > img {
     width: 100%;
   }
+
+  footer {
+    padding: 32px 0;
+  }
+  .footer-info {
+    margin: 0 16px;
+    margin-bottom: 24px;
+  }
+  .footer-logo img {
+  width: 32px;
+  height: 30px;
+}
+  .footer-logo > h4 {
+    font-size: 1.375rem;
+  }
+  .footer-info > p {
+    max-width: 310px;
+    font-size: .875rem;
+  line-height: 24px;
+  margin-bottom: 16px;
+  }
+  .footer-icons > i{
+  font-size: 1rem;
+}
+.footer-icons {
+  margin-bottom: 24px;
+}
+footer > p{
+  font-size: .875rem;
+}
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .container {
     padding: 0 24px;
+  }
+  main > section,
+  footer {
+    margin-top: 60px;
   }
   .banner > div > div,
   .tour-container,
@@ -281,35 +316,65 @@
     padding: 24px;
   }
 
-  .mountain{
+  .mountain {
     flex-direction: column;
   }
-  .mountain-image > img{
+  .mountain-image > img {
     width: 100%;
   }
-  .newsletter{
+  .newsletter {
     gap: 16px;
   }
-  .newsletter-form{
+  .newsletter-form {
     padding: 24px;
   }
-  .newsletter-image > div{
-  padding: 15px 25px;
-  transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -ms-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
-  bottom: 0;
-  right: 2%;
-}
-  .newsletter-image > div > span{
-  font-size: .99rem;
-}
-.newsletter-image > div > strong{
-  font-size: 1.2rem;
-}
-  .newsletter-image > img{
+  .newsletter-image > div {
+    padding: 15px 25px;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    bottom: 0;
+    right: 2%;
+  }
+  .newsletter-image > div > span {
+    font-size: 0.99rem;
+  }
+  .newsletter-image > div > strong {
+    font-size: 1.2rem;
+  }
+  .newsletter-image > img {
     width: 100%;
   }
+
+  footer {
+    padding: 32px 0;
+  }
+  .footer-info {
+    margin: 0 16px;
+    margin-bottom: 24px;
+  }
+  .footer-logo img {
+  width: 32px;
+  height: 30px;
+}
+  .footer-logo > h4 {
+    font-size: 1.375rem;
+  }
+  .footer-info > p {
+    max-width: 400px;
+    font-size: .875rem;
+  line-height: 24px;
+  margin-bottom: 16px;
+  }
+  .footer-icons > i{
+  font-size: 1rem;
+}
+.footer-icons {
+  margin-bottom: 24px;
+}
+footer > p{
+  font-size: .875rem;
+}
 }
