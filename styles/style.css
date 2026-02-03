@@ -21,6 +21,7 @@ html {
   --nav-link-color: #424247;
   --section-para-color: rgba(19, 19, 24, 0.7);
   --tour-des-color: #5a5a5d;
+  --footer-bg-color: rgba(19, 19, 24, 0.05);
 }
 
 .container {
@@ -526,4 +527,50 @@ nav > ul li:first-child a {
   display: block;
   font-size: 2rem;
   font-weight: 800;
+}
+
+footer{
+  text-align: center;
+  background-color: var(--footer-bg-color);
+  padding: 110px 0;
+}
+.footer-logo {
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.footer-logo img {
+  width: 42px;
+  height: 40px;
+}
+.footer-logo > h4 {
+  color: var(--heading-color);
+  font-size: 2rem;
+  font-weight: 800;
+}
+.footer-logo h4 span {
+  color: var(--text-orange);
+}
+.footer-info{
+  max-width: 1000px;
+  margin: auto;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+  margin-bottom: 50px;
+}
+.footer-info > p{
+  max-width: 860px;
+  margin: auto;
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--tour-des-color);
+  margin-bottom: 32px;
+}
+.footer-icons {
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 50px;
+}
+.footer-icons > i{
+  font-size: 1.25rem;
 }
